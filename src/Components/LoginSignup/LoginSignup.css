@@ -1,0 +1,115 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F3F4F6; 
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Center the entire page content */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+    background-color: #F3F4F6; /* Off-White Background */
+  }
+  
+  /* Styling for heading */
+  .home-heading {
+    color: #374151; /* Dark Gray Text */
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for text */
+  .home-text {
+    color: #374151;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  /* Button styling */
+.home-button {
+    background-color: #1E3A8A; /* Deep Blue */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #162D6A; /* Darker Blue on hover */
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #E5E7EB; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #374151; 
+  }
+  
+  form{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  input, select {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 50%;
+    padding: 10px;
+    background-color: #0738ea; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .button-container {
+    display: flex;
+    gap: 2px;
+  }
+  
+  button:hover {
+    background-color: #1B2E64;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #E5E7EB; 
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #1E3A8A;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
